@@ -1,0 +1,158 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.container{
+    padding: 30px;
+    max-width: 700px;
+    margin: 100px auto;
+    background-color: white;
+    display: flex;
+
+}
+.results{
+    padding: 30px;
+    border-radius: 20px;
+    background-image: linear-gradient(180deg,royalblue,slateblue);
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    
+    
+    
+}
+.para{
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    color: wheat;
+
+}
+.summary{
+    padding: 30px;
+    border-radius: 10px;
+    background-color: white;
+    width: 100%;
+
+    
+    
+
+}
+.para-6{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-image: linear-gradient(180deg,violet,blue);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.dot{
+    font-size: 30px;
+    font-weight: bold;
+}
+.para-6 p{
+    font-size: 15px;
+    color: wheat;
+}
+h4{
+    justify-content: center;
+    align-items: center;
+    color: wheat;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+.para-1{
+    color: wheat;
+    /* padding: 0 20px; */
+    text-align: center;
+}
+.para-2{
+    text-align: left;
+    text-transform: capitalize;
+    color: black;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.react-container{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: oldlace;
+    margin-bottom: 20px;
+}
+
+.react{
+    display: flex;
+    color: rosybrown;
+    
+}
+.number{
+    display: flex;
+    color: palevioletred;
+    
+}
+.memory-container{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: palegoldenrod;
+    margin-bottom: 20px;
+}
+.memory{
+    display: flex;
+    color: orange;
+}
+.num-2{
+    color: lightpink;
+}
+.verbal-container{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: lightblue;
+    margin-bottom: 20px;
+}
+.verbal{
+    display: flex;
+    color: royalblue;
+}
+.numb{
+    color: royalblue;
+}
+.visual-container{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: lavender;
+    margin-bottom: 20px;
+}
+.visual{
+    display: flex;
+    color: blue;
+}
+.numb-1{
+    color: blue;
+}
+.btn button{
+    padding: 10px;
+    width: 100%;
+    border-radius: 20px;
+    background-color: darkslateblue;
+    color: white;
+
+    
+}
